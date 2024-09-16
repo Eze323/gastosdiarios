@@ -1,0 +1,29 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.5.4",
+    "chart.js": "^4.4.4",
+    "firebase": "^10.13.1",
+    "hchs-vue-charts": "^1.2.8",
+    "nuxt": "^3.13.0",
+    "nuxt-vuefire": "^1.0.4",
+    "pinia": "^2.2.2",
+    "vue": "latest",
+    "vue-chartjs": "^5.3.1"
+  },
+  "devDependencies": {
+    "@nuxt/icon": "^1.5.1",
+    "@types/mongoose": "^5.11.96",
+    "mongoose": "^8.6.1",
+    "typescript": "^5.6.2"
+  }
+}
